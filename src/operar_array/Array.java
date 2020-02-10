@@ -14,7 +14,8 @@ public class Array {
 	/**
 	 * Rellevar array
 	 */
-	private void rellenar_array() {
+	private static void rellenar_array() {
+		int array[] = new int [10];
 		for (int i = 0; i < array.length; i++) {
 			array[i] = i;
 		}
@@ -87,8 +88,27 @@ public class Array {
 		return array;
 	}
 	
+	/**
+	 * Suma los elementos del array
+	 */
+	public static void   sumarElementosArray() {
+		int array[] = new int [10];
+		for (int i = 0; i < array.length; i++) {
+			array[i] = i;
+		}
+		
+		long suma=0;
+        for ( int i = 0; i < array.length; i++) {
+            suma+=array[i];
+            System.out.println("La suma es: " + suma);
+        }
+        
+        
+	}
+	
 	public static void main(String[] args) {
 		
+		sumarElementosArray();
 		
 		
 
