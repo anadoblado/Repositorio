@@ -110,6 +110,7 @@ public class Array {
 	
 	/**
 	 * Pedir número al usuario
+	 * sólo cambio el comentario para el 8
 	 */
 	public static void nuevoMetodo1 () {
 
