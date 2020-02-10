@@ -1,5 +1,7 @@
 package operar_array;
 
+import javax.swing.JOptionPane;
+
 public class Array {
 
 	int array[] = new int [10];
@@ -104,6 +106,16 @@ public class Array {
         }
         
         
+	}
+	
+	/**
+	 * Pedir número al usuario
+	 */
+	public static void nuevoMetodo1 () {
+
+			int num = Integer.parseInt(JOptionPane.showInputDialog("Introduza un número entero"));
+			System.out.println("El número introducido es: " + num);
+		
 	}
 	
 	public static void main(String[] args) {
