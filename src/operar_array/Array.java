@@ -1,5 +1,7 @@
 package operar_array;
 
+import javax.swing.JOptionPane;
+
 public class Array {
 
 	int array[] = new int [10];
@@ -104,6 +106,45 @@ public class Array {
         }
         
         
+	}
+	
+	/**
+	 * componer un array con otros dos
+	 */
+	private static void metodo2 () {
+		int array1[] = new int[10];
+		int array2[] = new int[10];
+		int array3[] = new int[10];
+		
+		int limInf=0, limSup=100;
+		for (int i = 0; i < array1.length; i++) {
+			array1[i]= (int)Math.round(Math.random()*(limSup-limInf)+limInf);
+				System.out.print(array1[i]+ "  ");
+		}
+				
+			System.out.println(" ");
+		for (int i = 0; i < array2.length; i++) {
+				array2[i]= (int)Math.round(Math.random()*(limSup-limInf)+limInf);
+				System.out.print(array2[i]+" ");
+		}
+									
+		System.out.println("");
+		
+		for (int i = 0; i < array3.length; i++) {
+			if(i%2==1) {
+			array3[i]=array1[i];
+			
+		}
+			if(i%2==0) {
+				array3[i]=array2[i];
+			}
+			System.out.println(" ");
+			System.out.print(array3[i]+ " ");
+			}
+
+		
+		
+	}
 	}
 	
 	public static void main(String[] args) {
