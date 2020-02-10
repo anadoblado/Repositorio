@@ -54,7 +54,7 @@ public class Array {
 	 * Mostrar array
 	 * @param array
 	 */
-	public static void mostrarArray (int [] array) {
+	public static void imprimirArray (int [] array) {
 
 		System.out.println("Contenido del array");
 		for (int i = 0; i < array.length; i++) {
