@@ -14,7 +14,7 @@ public class Array {
 	}
 	
 	/**
-	 * Rellevar array
+	 * Rellenar array
 	 */
 	private static void rellenar_array() {
 		int array[] = new int [10];
@@ -110,7 +110,6 @@ public class Array {
 	
 	/**
 	 * Pedir número al usuario
-	 * sólo cambio el comentario para el 8
 	 */
 	public static void nuevoMetodo1 () {
 
