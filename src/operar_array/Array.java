@@ -130,6 +130,7 @@ public class Array {
 		int array[]= new int[10];
 		for (int i=0; i<array.length; i++) {
 			array[i]=(int)Math.round(Math.random()*20);
+			
 						
 		}
 	}
