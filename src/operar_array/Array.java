@@ -24,7 +24,7 @@ public class Array {
 	}
 	
 	/**
-	 * Rellenar array con números sin repetir
+	 * Rellenar array con nï¿½meros sin repetir
 	 */
 	private void rellenar_array_sin_repetir() {
 		int aux=0;
@@ -41,7 +41,7 @@ public class Array {
 			}
 			if (NumRepe==true) {
 				NumRepe=false;
-				i--; //volver a la posición anterior del array
+				i--; //volver a la posiciï¿½n anterior del array
 			}
 			else {
 				array[i]=aux;
@@ -109,12 +109,12 @@ public class Array {
 	}
 	
 	/**
-	 * Pedir número al usuario
+	 * Pedir nï¿½mero al usuario
 	 */
 	public static void nuevoMetodo1 () {
 
-			int num = Integer.parseInt(JOptionPane.showInputDialog("Introduza un número entero"));
-			System.out.println("El número introducido es: " + num);
+			int num = Integer.parseInt(JOptionPane.showInputDialog("Introduza un nï¿½mero entero"));
+			System.out.println("El nï¿½mero introducido es: " + num);
 		
 	}
 	
@@ -124,6 +124,16 @@ public class Array {
 		
 		
 
+	}
+	
+	private static void nuria() {
+		int array[]= new int[10];
+		for (int i=0; i<array.length; i++) {
+			array[i]=(int)Math.round(Math.random()*20);
+		
+			
+						
+		}
 	}
 
 }
