@@ -3,6 +3,8 @@ package operar_array;
 import javax.swing.JOptionPane;
 
 public class Array {
+	
+	//hola nuria
 
 	int array[] = new int [10];
 	
