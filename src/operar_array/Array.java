@@ -11,6 +11,7 @@ public class Array {
 	 */
 	private void rellenar_array_del_1_al_20() {
 		crearArrayNumerosAzar(10, 20, 1);
+		System.out.println("Cambio de nacho");
 	}
 	
 	/**
@@ -24,7 +25,7 @@ public class Array {
 	}
 	
 	/**
-	 * Rellenar array con números sin repetir
+	 * Rellenar array con nï¿½meros sin repetir
 	 */
 	private void rellenar_array_sin_repetir() {
 		int aux=0;
@@ -41,7 +42,7 @@ public class Array {
 			}
 			if (NumRepe==true) {
 				NumRepe=false;
-				i--; //volver a la posición anterior del array
+				i--; //volver a la posiciï¿½n anterior del array
 			}
 			else {
 				array[i]=aux;
@@ -109,12 +110,12 @@ public class Array {
 	}
 	
 	/**
-	 * Pedir número al usuario
+	 * Pedir nï¿½mero al usuario
 	 */
 	public static void nuevoMetodo1 () {
 
-			int num = Integer.parseInt(JOptionPane.showInputDialog("Introduza un número entero"));
-			System.out.println("El número introducido es: " + num);
+			int num = Integer.parseInt(JOptionPane.showInputDialog("Introduza un nï¿½mero entero"));
+			System.out.println("El nï¿½mero introducido es: " + num);
 		
 	}
 	
